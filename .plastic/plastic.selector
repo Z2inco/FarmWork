@@ -1,0 +1,4 @@
+repository "Farm@kiff2inco@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
