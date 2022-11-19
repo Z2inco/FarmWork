@@ -29,7 +29,7 @@ public class ItemSlot
     }
 }
 
-[CreateAssetMenu(menuName ="Date/Item Container")]
+[CreateAssetMenu(menuName ="Data/Item Container")]
 public class ItemContainer : ScriptableObject
 {
 
@@ -66,6 +66,33 @@ public class ItemContainer : ScriptableObject
             if (itemSlot != null)
             {
                 itemSlot.item = item;
+            }
+        }
+    }
+
+    //使用后减少
+    public void Remove(Item itemToRemove, int count = 1)
+    {
+        if (itemToRemove.stackable)
+        {
+            ItemSlot itemSlot = slots.Find(x => x.item == itemToRemove);
+            if(itemSlot == null) { return; }
+
+            itemSlot.count -= count;
+            if (itemSlot.count <= 0)
+            {
+                itemSlot.Clear();
+            }
+        }
+        else {
+            while (count > 0)
+            {
+                count -= 1;
+
+                ItemSlot itemSlot = slots.Find(x => x.item == itemToRemove);
+                if(itemSlot == null) { break; }
+                itemSlot.Clear();
+
             }
         }
     }

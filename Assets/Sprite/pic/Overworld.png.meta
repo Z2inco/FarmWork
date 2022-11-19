@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fe37a496f057fa4488fd648549538a25
+guid: 8d55d41d8f9f095408f86f223713dfd4
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -2671460228953875570
-    second: Overworld_0
+    second: grass
   - first:
       213: -2689026045669087484
     second: Overworld_1
@@ -595,7 +595,7 @@ TextureImporter:
     second: Overworld_196
   - first:
       213: -3085000837880981780
-    second: tree_wood
+    second: Overworld_197
   - first:
       213: -4898110375821382468
     second: Overworld_198
@@ -2914,7 +2914,7 @@ TextureImporter:
     second: Overworld_969
   - first:
       213: -3328804424743113820
-    second: Overworld_970
+    second: Plowable Dirt
   - first:
       213: -1775735504993857005
     second: Overworld_971
@@ -3199,7 +3199,7 @@ TextureImporter:
     second: Overworld_1064
   - first:
       213: -7963366471572989131
-    second: Overworld_1065
+    second: Seeded
   - first:
       213: -1965972139797977756
     second: Overworld_1066
@@ -3220,7 +3220,10 @@ TextureImporter:
     second: Overworld_1071
   - first:
       213: 1933500101653270567
-    second: Overworld_1072
+    second: Plowed
+  - first:
+      213: 5649468536085351866
+    second: Marked
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -3311,7 +3314,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Overworld_0
+      name: grass
       rect:
         serializedVersion: 2
         x: 0
@@ -7448,12 +7451,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tree_wood
+      name: Overworld_197
       rect:
         serializedVersion: 2
         x: 48
         y: 480
-        width: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -23681,7 +23684,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_970
+      name: Plowable Dirt
       rect:
         serializedVersion: 2
         x: 16
@@ -23705,7 +23708,7 @@ TextureImporter:
       name: Overworld_971
       rect:
         serializedVersion: 2
-        x: 32
+        x: 31
         y: 80
         width: 16
         height: 16
@@ -25676,7 +25679,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_1065
+      name: Seeded
       rect:
         serializedVersion: 2
         x: 0
@@ -25823,7 +25826,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_1072
+      name: Plowed
       rect:
         serializedVersion: 2
         x: 16
@@ -25839,6 +25842,27 @@ TextureImporter:
       bones: []
       spriteID: 720993c291c25da10800000000000000
       internalID: 1933500101653270567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marked
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd0d1f83b1f66e40800000000000000
+      internalID: 5649468536085351866
       vertices: []
       indices: 
       edges: []

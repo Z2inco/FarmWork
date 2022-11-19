@@ -11,6 +11,15 @@ public class ToolBarController : MonoBehaviour
 
     public Action<int> onChange;
 
+    //获取物体
+    public Item GetItem
+    {
+        get
+        {
+            return GameManager.instance.inventoryContainer.slots[selectedTool].item;
+        }
+    }
+
     private void Update()
     {
         //鼠标滚轮控制选择的工具栏物品下标编号

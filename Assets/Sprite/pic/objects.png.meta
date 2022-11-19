@@ -23,6 +23,9 @@ TextureImporter:
   - first:
       213: 5069650035751226587
     second: objects_6
+  - first:
+      213: -9053378900703536071
+    second: Rock
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -247,7 +250,7 @@ TextureImporter:
         width: 5
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,6 +258,27 @@ TextureImporter:
       bones: []
       spriteID: bdc8f7ce8d30b5640800000000000000
       internalID: 5069650035751226587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 286
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c9c8e4bdfeb5280800000000000000
+      internalID: -9053378900703536071
       vertices: []
       indices: 
       edges: []

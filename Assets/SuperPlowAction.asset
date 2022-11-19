@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed440670569a654dbc210a2391f2151, type: 3}
+  m_Name: SuperPlowAction
+  m_EditorClassIdentifier: 
+  canPlow:
+  - {fileID: 11400000, guid: 134fe58fc3b39974a989662d515fea84, type: 2}
+  - {fileID: 11400000, guid: e6f342debb308354080931b4f1fcaa6a, type: 2}
