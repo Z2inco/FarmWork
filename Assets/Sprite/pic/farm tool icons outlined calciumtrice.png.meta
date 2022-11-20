@@ -1,49 +1,49 @@
 fileFormatVersion: 2
-guid: 21f7398a43e0dbc459bf86bbee21fb88
+guid: 9c84f3d50eb6d8143a43dc78d088fc8c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5271794538575238373
-    second: bag
+      213: -2670291720828784569
+    second: bagL
   - first:
-      213: -5839387938066880692
-    second: seeds
+      213: 1482628708856308297
+    second: seedL
   - first:
-      213: -4712163300645499514
-    second: farm tool icons calciumtrice_2
+      213: 3265182575498399433
+    second: farm tool icons outlined calciumtrice_2
   - first:
-      213: -2819001408227374827
-    second: farm tool icons calciumtrice_3
+      213: -6898444981882292910
+    second: farm tool icons outlined calciumtrice_3
   - first:
-      213: -8502204099374323333
-    second: farm tool icons calciumtrice_4
+      213: 4906455588079792017
+    second: farm tool icons outlined calciumtrice_4
   - first:
-      213: 5370779710546424858
-    second: farm tool icons calciumtrice_5
+      213: -8962922612257269092
+    second: farm tool icons outlined calciumtrice_5
   - first:
-      213: -3460558955573453370
-    second: farm tool icons calciumtrice_6
+      213: -3617438436641797951
+    second: farm tool icons outlined calciumtrice_6
   - first:
-      213: 4726350419456701328
-    second: farm tool icons calciumtrice_7
+      213: 5396861242803445495
+    second: farm tool icons outlined calciumtrice_7
   - first:
-      213: 5531555259226312820
-    second: farm tool icons calciumtrice_8
+      213: -3542000831349235768
+    second: farm tool icons outlined calciumtrice_8
   - first:
-      213: 6620871756963820377
-    second: farm tool icons calciumtrice_9
+      213: -6591076978984087133
+    second: farm tool icons outlined calciumtrice_9
   - first:
-      213: 1228335180915145717
-    second: shovel
+      213: 5407769093727611837
+    second: shoveL
   - first:
-      213: 8654109781666654699
-    second: pickaxe
+      213: 7110963713004445090
+    second: pickaxeL
   - first:
-      213: 1363766796081087351
-    second: axe
+      213: -6039579326603772281
+    second: axeL
   - first:
-      213: 6903487297195323404
-    second: plow
+      213: -7944410735462367092
+    second: plowL
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -88,7 +88,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bag
+      name: bagL
       rect:
         serializedVersion: 2
         x: 0
@@ -148,14 +148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e41f90a33d292940800000000000000
-      internalID: 5271794538575238373
+      spriteID: 7407555e3d731fad0800000000000000
+      internalID: -2670291720828784569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: seeds
+      name: seedL
       rect:
         serializedVersion: 2
         x: 64
@@ -169,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c47a2d5db9356fea0800000000000000
-      internalID: -5839387938066880692
+      spriteID: 9422d2594fa539410800000000000000
+      internalID: 1482628708856308297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farm tool icons calciumtrice_2
+      name: farm tool icons outlined calciumtrice_2
       rect:
         serializedVersion: 2
         x: 128
@@ -190,14 +190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68d8465b1780b9eb0800000000000000
-      internalID: -4712163300645499514
+      spriteID: 9ce8063b042405d20800000000000000
+      internalID: 3265182575498399433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farm tool icons calciumtrice_3
+      name: farm tool icons outlined calciumtrice_3
       rect:
         serializedVersion: 2
         x: 192
@@ -211,14 +211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5190849a725e0e8d0800000000000000
-      internalID: -2819001408227374827
+      spriteID: 2557458a6dcc340a0800000000000000
+      internalID: -6898444981882292910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farm tool icons calciumtrice_4
+      name: farm tool icons outlined calciumtrice_4
       rect:
         serializedVersion: 2
         x: 256
@@ -232,14 +232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b796ce01b6a120a80800000000000000
-      internalID: -8502204099374323333
+      spriteID: 19fe9b1ac5b371440800000000000000
+      internalID: 4906455588079792017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farm tool icons calciumtrice_5
+      name: farm tool icons outlined calciumtrice_5
       rect:
         serializedVersion: 2
         x: 320
@@ -253,14 +253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a14befde0b7d88a40800000000000000
-      internalID: 5370779710546424858
+      spriteID: c9ad61b2f5d4d9380800000000000000
+      internalID: -8962922612257269092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farm tool icons calciumtrice_6
+      name: farm tool icons outlined calciumtrice_6
       rect:
         serializedVersion: 2
         x: 128
@@ -274,14 +274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cd5fb8f6ff99ffc0800000000000000
-      internalID: -3460558955573453370
+      spriteID: 1c80f1b68e64ccdc0800000000000000
+      internalID: -3617438436641797951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farm tool icons calciumtrice_7
+      name: farm tool icons outlined calciumtrice_7
       rect:
         serializedVersion: 2
         x: 192
@@ -295,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0933cbb4aae579140800000000000000
-      internalID: 4726350419456701328
+      spriteID: 7fe5f5fd4b085ea40800000000000000
+      internalID: 5396861242803445495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farm tool icons calciumtrice_8
+      name: farm tool icons outlined calciumtrice_8
       rect:
         serializedVersion: 2
         x: 256
@@ -316,14 +316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 470d0a9633804cc40800000000000000
-      internalID: 5531555259226312820
+      spriteID: 8cf5a4d920948dec0800000000000000
+      internalID: -3542000831349235768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farm tool icons calciumtrice_9
+      name: farm tool icons outlined calciumtrice_9
       rect:
         serializedVersion: 2
         x: 320
@@ -337,14 +337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 953be39b8cf02eb50800000000000000
-      internalID: 6620871756963820377
+      spriteID: 3a1166c986ac784a0800000000000000
+      internalID: -6591076978984087133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shovel
+      name: shoveL
       rect:
         serializedVersion: 2
         x: 128
@@ -358,14 +358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fbff8bc65ceb0110800000000000000
-      internalID: 1228335180915145717
+      spriteID: dbb68f2d6514c0b40800000000000000
+      internalID: 5407769093727611837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pickaxe
+      name: pickaxeL
       rect:
         serializedVersion: 2
         x: 192
@@ -379,14 +379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be96977bef2991870800000000000000
-      internalID: 8654109781666654699
+      spriteID: 2ad925c42d73fa260800000000000000
+      internalID: 7110963713004445090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: axe
+      name: axeL
       rect:
         serializedVersion: 2
         x: 256
@@ -400,14 +400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 773c2ececa21de210800000000000000
-      internalID: 1363766796081087351
+      spriteID: 78e3dfcf99a1f2ca0800000000000000
+      internalID: -6039579326603772281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plow
+      name: plowL
       rect:
         serializedVersion: 2
         x: 320
@@ -421,8 +421,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c00bfbcde1d1ecf50800000000000000
-      internalID: 6903487297195323404
+      spriteID: c8047f20788cfb190800000000000000
+      internalID: -7944410735462367092
       vertices: []
       indices: 
       edges: []

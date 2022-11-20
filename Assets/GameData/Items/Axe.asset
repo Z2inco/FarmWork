@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Axe
   stackable: 0
-  icon: {fileID: 21300000, guid: 150e63edefad7ea4aa8fabbc7f9d4183, type: 3}
+  icon: {fileID: -6039579326603772281, guid: 9c84f3d50eb6d8143a43dc78d088fc8c, type: 3}
   onAction: {fileID: 11400000, guid: 83b75339ac12225429dd22794f8e0eff, type: 2}
   onTileMapAction: {fileID: 0}
+  onItemUsed: {fileID: 0}

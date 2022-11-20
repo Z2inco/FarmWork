@@ -84,7 +84,7 @@ public class ToolCharacterController : MonoBehaviour
             Item item = toolBarController.GetItem;
             if (item == null || item.onTileMapAction == null) { return; }
 
-            bool complete = item.onTileMapAction.OnApplyToTileMap(selectedTilePosition, tileMapReadcontroller);
+            bool complete = item.onTileMapAction.OnApplyToTileMap(selectedTilePosition, tileMapReadcontroller, item);
 
             if (complete == true)
             {

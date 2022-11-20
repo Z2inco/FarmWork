@@ -15,3 +15,6 @@ MonoBehaviour:
   Name: Stone
   stackable: 1
   icon: {fileID: 21300000, guid: 66cc44482bc7dd6439de7f6f9ebce870, type: 3}
+  onAction: {fileID: 0}
+  onTileMapAction: {fileID: 0}
+  onItemUsed: {fileID: 0}

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Plow
   stackable: 0
-  icon: {fileID: 21300000, guid: caf7f9e4bdde72440bfc0636281cd373, type: 3}
+  icon: {fileID: -7944410735462367092, guid: 9c84f3d50eb6d8143a43dc78d088fc8c, type: 3}
   onAction: {fileID: 0}
   onTileMapAction: {fileID: 11400000, guid: 74e1aa23fb1be404f8437bd87779e0ec, type: 2}
+  onItemUsed: {fileID: 0}
