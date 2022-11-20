@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: New Crop
   m_EditorClassIdentifier: 
   timeToGrow: 4
-  yield: {fileID: 11400000, guid: c2087208fe1dd9442bf40c900b1ea0bf, type: 2}
-  count: 1
+  yield: {fileID: 11400000, guid: d8d73c666bdaae242873b5798ead981a, type: 2}
+  count: 5
   sprites:
   - {fileID: 1087356255968352427, guid: c34e6a5303dc8ca409ac8f51e2c02d0c, type: 3}
   - {fileID: -3223917617289630217, guid: c34e6a5303dc8ca409ac8f51e2c02d0c, type: 3}

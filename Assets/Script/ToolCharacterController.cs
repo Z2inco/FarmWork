@@ -14,6 +14,7 @@ public class ToolCharacterController : MonoBehaviour
     [SerializeField] MarkerManger markerManger;
     [SerializeField] TileMapReadController tileMapReadcontroller;
     [SerializeField] float maxDistance = 1.5f;  //工具最大涉及范围
+    [SerializeField] ToolAction onTilePickUp;
     //[SerializeField] CropsManager cropsManager;
     //[SerializeField] TileData plowableTile;
 
@@ -82,8 +83,11 @@ public class ToolCharacterController : MonoBehaviour
         if (selectable == true)
         {
             Item item = toolBarController.GetItem;
-            if (item == null || item.onTileMapAction == null) { return; }
-
+            if (item == null)
+            {
+                PickUpTile();
+            }
+            if (item.onTileMapAction == null) { return; }
             bool complete = item.onTileMapAction.OnApplyToTileMap(selectedTilePosition, tileMapReadcontroller, item);
 
             if (complete == true)
@@ -96,5 +100,11 @@ public class ToolCharacterController : MonoBehaviour
             }
 
         }
+    }
+
+    private void PickUpTile()
+    {
+        if (onTilePickUp == null){ return; }
+        onTilePickUp.OnApplyToTileMap(selectedTilePosition, tileMapReadcontroller, null);
     }
 }
