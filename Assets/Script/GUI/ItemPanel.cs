@@ -23,6 +23,17 @@ public class ItemPanel : MonoBehaviour
         Show();
     }
 
+    private void LateUpdate()
+    {
+        if (inventory == null) { return; }
+
+        if (inventory.isDirty)
+        {
+            Show();
+            inventory.isDirty = false;
+        }
+    }
+
     private void SetIndex()
     {
         //遍历库存和按钮计数 （&&工具栏 防止超出按钮数
@@ -32,9 +43,9 @@ public class ItemPanel : MonoBehaviour
         }
     }
 
-
     public void Show()
     {
+        if (inventory == null) { return; }
         for (int i = 0; i < inventory.slots.Count && i < buttons.Count; i++)
         {
             if (inventory.slots[i].item == null)

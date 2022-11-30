@@ -34,9 +34,11 @@ public class ItemContainer : ScriptableObject
 {
 
     public List<ItemSlot> slots;
+    public bool isDirty;
 
     public void Add(Item item, int count = 1)
     {
+        isDirty = true;
         if (item.stackable == true)
         {
             //可堆叠 
@@ -44,13 +46,13 @@ public class ItemContainer : ScriptableObject
             if (itemSlot != null)
             {
                 //已有实例存在
-                Debug.LogWarning("已有实例存在");
+                //Debug.LogWarning("已有实例存在");
                 itemSlot.count += count;
             }
             else
             {
                 //无实例存在
-                Debug.LogWarning(" 无实例存在");
+                //Debug.LogWarning(" 无实例存在");
                 itemSlot = slots.Find(x => x.item == null);
                 if (itemSlot != null)
                 {
@@ -73,6 +75,8 @@ public class ItemContainer : ScriptableObject
     //使用后减少
     public void Remove(Item itemToRemove, int count = 1)
     {
+        isDirty = true;
+
         if (itemToRemove.stackable)
         {
             ItemSlot itemSlot = slots.Find(x => x.item == itemToRemove);

@@ -7,9 +7,17 @@ using UnityEngine.UI;
 
 public class ItemDragAndDropController : MonoBehaviour
 {
-    [SerializeField]ItemSlot itemSlot;
+    public ItemSlot itemSlot;
     [SerializeField]GameObject itemIcon;
     RectTransform iconTransform;
+
+    public bool CheckForSale()
+    {
+        if(itemSlot.item == null) { return false; }
+        if(itemSlot.item.canBeSold == false) { Debug.Log("1"); return false; }
+        return true;
+    }
+
     Image itemIconImage;
 
     private void Start ()
@@ -65,7 +73,7 @@ public class ItemDragAndDropController : MonoBehaviour
         UpdateIcon();
     }
 
-    private void UpdateIcon()
+    public void UpdateIcon()
     {
         if (itemSlot.item == null)
         {

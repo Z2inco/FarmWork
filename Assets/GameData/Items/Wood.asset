@@ -15,3 +15,9 @@ MonoBehaviour:
   Name: Wood
   stackable: 1
   icon: {fileID: 21300000, guid: f8b233152f059a1449e84c642ee56373, type: 3}
+  onAction: {fileID: 0}
+  onTileMapAction: {fileID: 0}
+  onItemUsed: {fileID: 0}
+  crop: {fileID: 0}
+  price: 100
+  canBeSold: 1

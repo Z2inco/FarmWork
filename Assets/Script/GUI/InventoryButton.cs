@@ -48,6 +48,7 @@ public class InventoryButton : MonoBehaviour,IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        //if()
         ItemPanel itemPanel = transform.parent.GetComponent<ItemPanel>();
         itemPanel.onClick(myIndex);
 

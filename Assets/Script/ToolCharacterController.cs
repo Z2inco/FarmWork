@@ -44,6 +44,7 @@ public class ToolCharacterController : MonoBehaviour
     private void SelectTile()
     {
         selectedTilePosition = tileMapReadcontroller.GetGridPosition(Input.mousePosition, true);
+        
     }
 
     void CanSelectCheck()

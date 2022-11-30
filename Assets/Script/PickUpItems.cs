@@ -49,7 +49,7 @@ public class PickUpItems : MonoBehaviour
             if (GameManager.instance.inventoryContainer != null)
             {
                 GameManager.instance.inventoryContainer.Add(item ,count);
-                Debug.LogWarning("Add");
+                //Debug.LogWarning("Add");
             }
             else {
                 Debug.LogWarning("No inventory container attached to the game manager");

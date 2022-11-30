@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class TalkInteract : Interactable
 {
+    [SerializeField] DialogueContainer dialogue;
+
     public override void Interact(Character character)
     {
-        Debug.Log("You talk with me congratualtion!");
+        GameManager.instance.dialogueSystem.Initialize(dialogue);
     }
 }

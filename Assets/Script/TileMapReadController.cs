@@ -9,11 +9,17 @@ public class TileMapReadController : MonoBehaviour
     public CropsManager cropsManager;
     [SerializeField] Tilemap tilemap;
     
- 
-
 
     public Vector3Int GetGridPosition(Vector2 position, bool mousePosition)
     {
+        //修复因分场景破坏的种植系统
+        if (tilemap == null)
+        {
+            tilemap = GameObject.Find("BaseTilemap").GetComponent<Tilemap>();
+        }
+
+        if (tilemap == null) { return Vector3Int.zero; }
+
         Vector3 worldPosition;
         if (mousePosition)
         {
@@ -30,8 +36,12 @@ public class TileMapReadController : MonoBehaviour
 
     public TileBase GetTileBase(Vector3Int gridPosition)
     {
+        if (tilemap == null)
+        {
+            tilemap = GameObject.Find("BaseTilemap").GetComponent<Tilemap>();
+        }
 
-        
+        if (tilemap == null) { return null; }
 
         TileBase tile = tilemap.GetTile(gridPosition);
 
